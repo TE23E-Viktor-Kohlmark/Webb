@@ -1,0 +1,29 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 14px;
+}
+ul {
+    background-color: orange;
+
+}
+h3 {
+    color: red;
+}
+
+li {
+    background-color: wheat;
+    color: black;
+}
+
+ol {
+    background-color: blue;
+}
