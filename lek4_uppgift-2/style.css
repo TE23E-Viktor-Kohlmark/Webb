@@ -1,0 +1,78 @@
+body {
+  background-image: url('./img/winter-snow.jpg');
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  /* Space-between fungerar bättre än justify content.. */
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid black;
+  color: white;
+}
+
+.header h1 {
+  background-color: gray;
+  font-size: 40px;
+}
+
+.helgdagar {
+  background-color: gray;
+  border: 3px solid white;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+table {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  background-color: blanchedalmond;
+  color: black;
+  border-collapse: collapse;
+  border: 5px solid black;
+}
+
+table tr th {
+  background-color: gray;
+  color: black;
+  border: 3px solid red;
+  padding: 5px;
+}
+
+table tr td {
+  border: 2px solid red;
+  padding: 5px;
+}
+
+.footer-bild {
+  border: 5px solid black;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-bild img {
+  width: 100%;
+}
+
+
+
+/* ID-Stilar */
+#rtwb {
+  background-color: white;
+  color: red;
+}
+
+#yb {
+  background-color: yellow;
+}
+
+#rday {
+  color: red;
+}
